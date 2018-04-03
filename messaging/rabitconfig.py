@@ -1,7 +1,7 @@
 import pika, sys
 
 
-def getDefaultChangel():
+def getDefaultChannel():
     credentials = pika.PlainCredentials("guest", "guest")
     conn_params = pika.ConnectionParameters(
         "localhost", credentials=credentials)

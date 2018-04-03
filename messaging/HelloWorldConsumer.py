@@ -1,7 +1,7 @@
 import rabitconfig
 import pika
 
-channel = rabitconfig.getDefaultChangel()
+channel = rabitconfig.getDefaultChannel()
 
 channel.exchange_declare(
     exchange="hello-exchange",

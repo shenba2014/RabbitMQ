@@ -3,7 +3,7 @@ from pika import spec
 import sys
 import rabitconfig
 
-channel = rabitconfig.getDefaultChangel()
+channel = rabitconfig.getDefaultChannel()
 
 msg_ids = []
 
