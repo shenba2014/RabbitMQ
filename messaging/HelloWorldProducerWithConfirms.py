@@ -1,9 +1,9 @@
 import pika
 from pika import spec
 import sys
-import rabitconfig
+import rabbitMQConfig
 
-channel = rabitconfig.getDefaultChannel()
+channel = rabbitMQConfig.getDefaultChannel()
 
 msg_ids = []
 

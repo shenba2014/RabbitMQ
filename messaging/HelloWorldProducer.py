@@ -1,8 +1,8 @@
 import sys
 import pika
-import rabitconfig
+import rabbitMQConfig
 
-channel = rabitconfig.getDefaultChannel()
+channel = rabbitMQConfig.getDefaultChannel()
 
 channel.exchange_declare(
     exchange="hello-exchange",
